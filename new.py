@@ -16,10 +16,10 @@ while c == "yes":
     if choice in x:
         food = x.index(choice)
         price = p[food]
-        j = (price*quantity)
+        price_quantity = (price*quantity)
         print(f"Your order is {choice}: ${j}")
         c = input("Do you like to order FOOD (YES!/NO!)?").lower()
-        total+= j
+        total += price_quantity
         if c == "no":
             print(f"Your price is {total}")        
 else:
