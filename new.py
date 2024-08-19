@@ -21,7 +21,7 @@ while c == "yes":
         c = input("Do you like to order FOOD (YES!/NO!)?").lower()
         total += price_quantity
         if c == "no":
-            print(f"Your price is {total}")        
+            print(f"Your Total Bill is ${total}")        
 else:
     print("Have A Nice Day!")
 
